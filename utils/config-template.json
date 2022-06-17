@@ -1,0 +1,10 @@
+{
+  "output": "generated/{{DEFENDER_NAME}}/access-control.",
+  "chain": "{{GRAPH_NAME}}",
+  "datasources": [
+    {
+      "startBlock": 0,
+      "module": "accesscontrol"
+    }
+  ]
+}

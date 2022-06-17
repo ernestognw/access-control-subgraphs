@@ -1,0 +1,185 @@
+{
+  "mainnet": {
+    "graphName": "mainnet",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-mainnet"
+    }
+  },
+  "rinkeby": {
+    "graphName": "rinkeby",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-rinkeby"
+    }
+  },
+  "ropsten": {
+    "graphName": "ropsten",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-ropsten"
+    }
+  },
+  "kovan": {
+    "graphName": "kovan",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-kovan"
+    }
+  },
+  "goerli": {
+    "graphName": "goerli",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-goerli"
+    }
+  },
+  "xdai": {
+    "graphName": "xdai",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-xdai"
+    }
+  },
+  "sokol": {
+    "graphName": "poa-sokol",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-sokol"
+    }
+  },
+  "fuse": {
+    "graphName": "fuse",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-fuse"
+    }
+  },
+  "bsc": {
+    "graphName": "bsc",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-bsc"
+    }
+  },
+  "bsctest": {
+    "graphName": "chapel",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-bsc-testnet"
+    }
+  },
+  "fantom": {
+    "graphName": "fantom",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-fantom"
+    }
+  },
+  "fantomtest": null,
+  "moonbase": {
+    "graphName": "mbase",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-moonbase"
+    }
+  },
+  "moonriver": {
+    "graphName": "moonriver",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-moonriver"
+    }
+  },
+  "moonbeam": null,
+  "matic": {
+    "graphName": "matic",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-matic"
+    }
+  },
+  "mumbai": {
+    "graphName": "mumbai",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-mumbai"
+    }
+  },
+  "avalanche": {
+    "graphName": "avalanche",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-avalanche"
+    }
+  },
+  "fuji": {
+    "graphName": "fuji",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-fuji"
+    }
+  },
+  "optimism": {
+    "graphName": "optimism",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-optimism"
+    }
+  },
+  "optimism-kovan": {
+    "graphName": "optimism-kovan",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-optimism-kovan"
+    }
+  },
+  "arbitrum": {
+    "graphName": "arbitrum-one",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-arbitrum"
+    }
+  },
+  "arbitrum-rinkeby": {
+    "graphName": "arbitrum-rinkeby",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-arbitrum-rinkeby"
+    }
+  },
+  "celo": {
+    "graphName": "celo",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-celo"
+    }
+  },
+  "alfajores": {
+    "graphName": "celo-alfajores",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-alfajores"
+    }
+  },
+  "harmony-s0": null,
+  "harmony-test-s0": null,
+  "aurora": {
+    "graphName": "aurora",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-aurora"
+    }
+  },
+  "auroratest": {
+    "graphName": "aurora-testnet",
+    "deploy": {
+      "product": "hosted-service",
+      "name": "ernestognw/access-control-aurora-test"
+    }
+  },
+  "hedera": null,
+  "hederatest": null,
+  "x-dfk-avax-chain": null,
+  "x-dfk-avax-chain-test": null
+}

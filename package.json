@@ -1,0 +1,19 @@
+{
+  "name": "access-control-subgraphs",
+  "version": "1.0.0",
+  "description": "OpenZeppelin Access Control Subgraphs for Defender supported networks",
+  "main": "index.js",
+  "repository": "https://github.com/ernestognw/access-control-subgraphs",
+  "author": "Ernesto García (ernesto@openzeppelin.com)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "generate:configs": "node ./scripts/generate-configs.js",
+    "compile": "node ./scripts/compile.js",
+    "deploy": "node ./scripts/deploy.js"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "^0.30.4",
+    "@openzeppelin/subgraphs": "^0.1.8-3"
+  }
+}
