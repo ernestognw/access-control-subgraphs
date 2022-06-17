@@ -11,6 +11,13 @@ const deploy = (generated) =>
       generated,
       "access-control.subgraph.yaml"
     );
+    if (!existsSync(subgraphManifestPath)) {
+      console.error(
+        `Path ${subgraphManifestPath} doesn't exist.`,
+        "Did you forget to run yarn compile?"
+      );
+      process.exit(1);
+    }
     const { product, name } = require(join(
       GENERATED_DIR,
       generated,
@@ -36,7 +43,7 @@ const run = async () => {
   if (!existsSync(GENERATED_DIR)) {
     console.error(
       `Path ${GENERATED_DIR} doesn't exist.`,
-      "Did you forget to run yarn build?"
+      "Did you forget to run yarn generate:configs?"
     );
     process.exit(1);
   }
